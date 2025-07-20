@@ -5,29 +5,28 @@ This project focuses on performing Exploratory Data Analysis (EDA) on a sales da
 To analyze consumer purchase behavior and identify patterns across gender, age groups, state, occupation, marital status, and product categories. The findings can be used to support business decisions and optimize marketing strategies.
 
 🗃 Dataset Summary:
-Records: 11,239 cleaned entries
-Columns: 13 meaningful features
+Records: 11,239 cleaned entries<br>
+Columns: 13 meaningful features<br>
 
 Contains data on:
-Customer demographics (Gender, Age, Marital Status, State, Occupation)
-Product details (Product ID, Category)
-Order information (Order count, Amount)
+Customer demographics (Gender, Age, Marital Status, State, Occupation)<br>
+Product details (Product ID, Category)<br>
+Order information (Order count, Amount)<br>
 
 🔧 Steps Performed:
+Data Cleaning - Removed null values and irrelevant columns (Status, unnamed1) ; handled missing values in the Amount column ; Converted datatypes appropriately.<br>
 
-Data Cleaning - Removed null values and irrelevant columns (Status, unnamed1) ; handled missing values in the Amount column ; Converted datatypes appropriately.
+Data Wrangling - Grouped and aggregated data to analyze key metrics like total sales and order counts.<br>
 
-Data Wrangling - Grouped and aggregated data to analyze key metrics like total sales and order counts.
-
-Data Visualization - Count plots and bar charts using seaborn and matplotlib ;
-Sales distribution by -
-Gender
-Age Group
-State
-Marital Status
-Occupation
-Product Category
-Product ID (top-selling products)
+Data Visualization - Count plots and bar charts using seaborn and matplotlib ;<br>
+Sales distribution by -<br>
+Gender<br>
+Age Group<br>
+State<br>
+Marital Status<br>
+Occupation<br>
+Product Category<br>
+Product ID (top-selling products)<br>
 
 📈 Key Insights:
 Females aged 26–35 years are the most active buyers with the highest purchase power.
@@ -40,8 +39,8 @@ The most sold products fall under Food, Clothing, and Electronics categories.
 This analysis provides meaningful business intelligence to target high-value customer segments and streamline product strategies. It also highlights the importance of demographic-based marketing in boosting e-commerce sales.
 
 🛠 Tools & Libraries:
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
+Python<br>
+Pandas<br>
+NumPy<br>
+Matplotlib<br>
+Seaborn<br>
