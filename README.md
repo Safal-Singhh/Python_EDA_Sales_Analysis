@@ -1,19 +1,19 @@
 # Python_EDA_Sales_Analysis
 This project focuses on performing Exploratory Data Analysis (EDA) on a sales dataset using Python libraries like Pandas, NumPy, Matplotlib, and Seaborn. The goal is to uncover key insights into customer behavior, product performance, and sales trends across various demographics and regions.
 
-🔍 Objective:
+🔍 Objective:<br>
 To analyze consumer purchase behavior and identify patterns across gender, age groups, state, occupation, marital status, and product categories. The findings can be used to support business decisions and optimize marketing strategies.
 
-🗃 Dataset Summary:
+🗃 Dataset Summary:<br>
 Records: 11,239 cleaned entries<br>
 Columns: 13 meaningful features<br>
 
-Contains data on:
+Contains data on:<br>
 Customer demographics (Gender, Age, Marital Status, State, Occupation)<br>
 Product details (Product ID, Category)<br>
 Order information (Order count, Amount)<br>
 
-🔧 Steps Performed:
+🔧 Steps Performed:<br>
 Data Cleaning - Removed null values and irrelevant columns (Status, unnamed1) ; handled missing values in the Amount column ; Converted datatypes appropriately.<br>
 
 Data Wrangling - Grouped and aggregated data to analyze key metrics like total sales and order counts.<br>
